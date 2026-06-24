@@ -1,4 +1,4 @@
-# variables- Named memory locations for storing datas
+# variables- Named memory locations for storing data
 
 age = 34
 print(age) # age is an int variable
