@@ -1,0 +1,29 @@
+# Format specifiers - Format specifiers are placeholders used in strings to control how variables are displayed.
+
+price1 = 6764.336
+price2 = -983.489
+price3 = 78677.31
+print(f"price1: {price1:.2f}")
+print(f"price2: {price2:.2f}")
+print(f"price3: {price3:.2f}")
+print(f"price1: {price1:10}")
+print(f"price2: {price2:10}")
+print(f"price3: {price3:10}")
+print(f"price1: {price1:010}")
+print(f"price2: {price2:010}")
+print(f"price3: {price3:010}")
+print(f"price1: {price1:<}")
+print(f"price2: {price2:<}")
+print(f"price3: {price3:<}")
+print(f"price1: {price1:>}")
+print(f"price2: {price2:>}")
+print(f"price3: {price3:>}")
+print(f"price1: {price1:^}")
+print(f"price2: {price2:^}")
+print(f"price3: {price3:^}")
+print(f"price1: {price1:+}")
+print(f"price2: {price2:+}")
+print(f"price3: {price3:+}")
+print(f"price1: {price1:,}")
+print(f"price2: {price2:,}")
+print(f"price3: {price3:,}")
