@@ -23,3 +23,10 @@ while not user_pwd == "python123":
 
 print("Welcome!")
 '''
+#4
+age=int(input("Enter your age: "))
+while age<18 or age>100:
+    print("Too old or Too young")
+    age=int(input("Enter your correct age: "))
+print("Welcome to our website!")
+
