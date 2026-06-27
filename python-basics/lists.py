@@ -1,4 +1,5 @@
 #List-multiple values stored in one variable
+#a list is a built-in data type used to store an ordered, mutable collection of items,duplicates are allowed.
 students=["Sam","Balu","Deepika","Atchaya"]
 mark=[56,85,90,93]
 #print(len(students))
