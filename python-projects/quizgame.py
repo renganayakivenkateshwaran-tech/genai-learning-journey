@@ -12,12 +12,23 @@ for question in questions:
     print(question)
     for option in options[que_num]:
         print(option)
-    guess = input("Enter (A,B,C,D)").upper()
+    guess = input("Enter (a,b,c,d): ")
     guesses.append(guess)
     if guess==answers[que_num]:
      score+=1
      print("Correct!")
     else:
      print("Incorrect!")
-    print("The correct answer is:",[que_num])
+     print("The correct answer is:",{answers[que_num]})
     que_num+=1
+print("ANSWERS:",end=" ")
+for answer in answers:
+   print(answer,end=" ")
+print()   
+
+print("GUESSES:",end=" ")
+for guess in guesses:
+   print(guess,end=" ")
+print() 
+score= int((score)/len(questions)*100)
+print(f"Your score is:{score}%")
