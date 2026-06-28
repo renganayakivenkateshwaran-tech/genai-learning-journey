@@ -1,5 +1,3 @@
-#1
-'''
-for y in range(0,2):
- for x in range(0,5):
-  print(x,end=",")
+fruits=["apple","orange","banana"]
+vegetables=["carrot","onion","beans"]
+junk=["burger","pizza","fries"]
