@@ -5,3 +5,11 @@ students = {"BALA": "90",
             "ACHU":"92"}
 #(students.get("ACHU"))
 #print(students.update({"PRIYA":"81"}))
+#print(students.pop("MEENA"))
+#print(students.keys())
+#print(students.values())
+'''
+item = students.items()
+for key,value in item:
+    print(f"{key}:{value}")
+    '''
