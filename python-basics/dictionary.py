@@ -8,8 +8,14 @@ students = {"BALA": "90",
 #print(students.pop("MEENA"))
 #print(students.keys())
 #print(students.values())
+#print(students.clear())
 '''
 item = students.items()
 for key,value in item:
     print(f"{key}:{value}")
+   
+if "ACHU" in students:
+    print("Exist")
+else:
+    print("Doesn't exist")
     '''
