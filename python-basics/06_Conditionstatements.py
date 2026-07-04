@@ -1,4 +1,4 @@
-
+#1
 # if statements - if the if black is true the statement written on it will be executed. or the else block will be executed.
 
 age  = int (input ("what's your age"))
@@ -9,7 +9,7 @@ else :
 
 #elif statement - If more than two conditions occurs we use elif        
 
-
+#2
 age  = int (input ("what's your age? "))
 if(age<0) :
               print ("You haven't been born yet")

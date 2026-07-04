@@ -6,7 +6,7 @@ print("Hello,", name)
 # Integer type casting
 age = int(input("Enter your age: "))
 print("You are", age, "years old.")
-age = age + 1
+age = age + 1 #without typecasting we can't use a variable in expressions.
 print(age)
 # Float type casting
 gpa = float (input("Enter your gpa: "))

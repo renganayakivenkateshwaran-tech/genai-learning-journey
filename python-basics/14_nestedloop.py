@@ -5,7 +5,12 @@ for y in range(0,2):
   print(x,end=",")
   '''
 #2
-for y in range(4):
- for x in range(2):
-  print("*")
-  print()
+rows=5
+for x in range(rows):
+    for col in range(rows):
+        print(" ",end=" ")
+    for star in range (5-rows):
+        print("*",end=" ")
+    print()
+
+
