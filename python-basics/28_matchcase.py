@@ -20,4 +20,15 @@ def day_of_week(day):
 
 print(day_of_week(5))
            
+#2
+def Is_weekend(day):
+    match day:
+        case "Sunday"|"Saturday":
+            return True
+        case "Monday"|"Tuesday"|"Wednesday"|"Thrusday"|"Friday":
+            return False
+        case _:
+            return("Not valid")
+
+print(Is_weekend("Sunday"))
         
