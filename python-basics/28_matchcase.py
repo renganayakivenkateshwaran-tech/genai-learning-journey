@@ -2,9 +2,22 @@
 def day_of_week(day):
     match day:
         case 1:
-            print("Sunday")
+            return("Sunday")
         case 2:
-            print("Monday")
-         case 3:
-            print("Tuesday")   
+            return("Monday")
+        case 3:
+            return("Tuesday")
+        case 4:
+            return("Wednesday")
+        case 5:
+            return("Thursday")
+        case 6:
+            return("Friday")
+        case 7:
+            return("Saturday")
+        case _:
+            return("Not valid")
+
+print(day_of_week(5))
+           
         
