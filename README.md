@@ -3,7 +3,7 @@
 Welcome to my repository tracking my progress toward becoming an Enterprise Generative AI Engineer. This portfolio documents my code, software engineering foundations, and research implementations.
 
 ### 🐍 Phase 1: Master Python
-* [x] **Core Syntax, OOP, and Dunder Methods** *(Current Focus)*
+* [x] **Core Syntax, OOP, and Dunder Methods** 
 * [ ] **Decorators, Generators, and Context Managers**
 * [ ] **Async/Await, Concurrency, and Type Hints**
 * [ ] **Unit Testing (`pytest`) & File I/O**
@@ -15,7 +15,7 @@ Welcome to my repository tracking my progress toward becoming an Enterprise Gene
 * [ ] **Probability & Statistics:** Distributions, Bayes Theorem, Hypothesis Testing
 
 ### 💻 Phase 3: CS Core + DSA
-* [ ] **Data Structures & Algorithms:** LeetCode Easy-to-Medium (Target: 300+ problems)
+* [ ] **Data Structures & Algorithms:** LeetCode Easy-to-Medium 
 * [ ] **Systems & Tools:** Linux Command Line, Advanced Git/GitHub, OS Threads & Memory
 * [ ] **Databases:** Structured Query Language (SQL) & PostgreSQL Schema Design
 
