@@ -1,4 +1,5 @@
 # Logical operators are used to perform specific task on a variable or values. it will return either True or False value.
+
 #Logical and- All the condition must be true in order to return True value.
 #1
 a=5
@@ -6,7 +7,13 @@ b=9
 c=12
 print(a>0 and b==9 and c<20)
 #2
-print((a<b and a<c and b<c))
+Is_admin = True 
+original_Password = "ABCERT"
+Entered_password = input ("Enter the password: ")
+if (Is_admin and original_Password==Entered_password ):
+    print ("Access Allowed")
+else:
+    print ("Access Denied")
       
 #Logical or - At least one condition must be true.
 #1
