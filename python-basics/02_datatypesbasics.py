@@ -4,7 +4,7 @@
 age = 18
 gpa = 8
 language = 5
-print (f"I'm {age} years old , My gpa is {gpa} , I know {language} languages")
+print (f"I'm {age} years old , My gpa is {gpa} , I speak {language} languages")
 
 #float
 average = 90.5
