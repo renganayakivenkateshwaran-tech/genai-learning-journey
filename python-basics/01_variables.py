@@ -1,4 +1,6 @@
-# variables- Named memory locations for storing data
+# Variables- Named memory locations for storing data.
+# Should not be a keyword.
+# No special characters are allowed except underscore (_)
 
 age = 34
 print(age) # age is an int variable
