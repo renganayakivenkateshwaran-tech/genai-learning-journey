@@ -10,11 +10,13 @@ else :
 #elif statement - If more than two conditions occurs we use elif        
 
 #2
-age  = int (input ("what's your age? "))
-if(age<0) :
-              print ("You haven't been born yet")
-elif (age>=18):
-              print ("you are eligible for voting") 
+name  = (input ("what's your name?: "))
+if(len(name) < 4) :
+              print ("Too short")
+elif ("." in name or "," in name):
+              print ("Not valid") 
+elif (len(name) > 15) :
+              print ("Only 12 characters are allowed")
 else:
-              print ("you are NOT eligible for voting")
+    print ("Welcome!")
 
