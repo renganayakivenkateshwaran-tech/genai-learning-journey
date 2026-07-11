@@ -1,5 +1,14 @@
-#The print() statement in Python is a built-in function used to display output on the screen (console).
-print ("Hello world!:)") #Printing string
-print (027) #Printing number
-name = achu
-print (name) #Printing variable
+"""
+Demonstration of the built-in print() function in Python.
+Shows how to output strings, numbers, and variables.
+"""
+
+# Printing a literal string
+print("Hello world! :)")
+
+# Printing an integer (no leading zeros)
+print(27)
+
+# Assigning a string to a variable and printing it
+name = "achu"
+print(name)
