@@ -31,4 +31,25 @@ def Is_weekend(day):
             return("Not valid")
 
 print(Is_weekend("Sunday"))
-        
+
+
+
+#3
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+op = input("Enter operator (+, -, *, /): ")
+
+match op:
+    case "+":
+        print(a + b)
+    case "-":
+        print(a - b)
+    case "*":
+        print(a * b)
+    case "/":
+        if b != 0:
+            print(a / b)
+        else:
+            print("Division by zero is not allowed")
+    case _:
+        print("Invalid operator")
