@@ -36,5 +36,5 @@ Welcome to the **Python Basics** section of my Generative AI learning journey! T
 | `26_membershipoperators.py` | Checking value presence using `in` and `not in` |
 | `27_listcomprehension.py` | Creating new lists concisely from existing iterables |
 | `28_matchcase.py` | Modern pattern matching (Python 3.10+ switch-case equivalent) |
-
+| `29_exceptionhandling.pu` | Covers try, except, else, finally blocks, and raising custom errors |
 ---
