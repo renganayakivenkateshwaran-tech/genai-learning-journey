@@ -1,13 +1,26 @@
-# Variables- Named memory locations for storing data.
-# Should not be a keyword.
-# No special characters are allowed except underscore (_)
+"""
+Demonstration of Python variables, naming conventions, and data types.
 
-age = 34
-print(age) # age is an int variable
+Key Rules:
+- Named memory locations for storing data.
+- Should not be a Python keyword.
+- No special characters are allowed except underscores (_).
+"""
 
-name = "achu"
-print (f"My name is {name}") 
-# f-strings (formatted string literals) are a concise and readable way to embed variables and expressions directly inside string literals.
 
-gpa= 9.2
-print(gpa) #float variable
+def demonstrate_variables() -> None:
+    # Integer variable
+    age: int = 34
+    print(f"Age: {age}")
+
+    # String variable using f-string interpolation
+    name: str = "achu"
+    print(f"My name is {name}")
+
+    # Float variable
+    gpa: float = 9.2
+    print(f"GPA: {gpa}")
+
+
+if __name__ == "__main__":
+    demonstrate_variables()
