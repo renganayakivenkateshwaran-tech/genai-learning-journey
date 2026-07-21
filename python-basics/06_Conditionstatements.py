@@ -1,22 +1,36 @@
-#1
-# if statements - if the if black is true the statement written on it will be executed. or the else block will be executed.
+"""
+Demonstration of Conditional Statements in Python.
 
-age  = int (input ("what's your age"))
-if (age>=18):
-              print ("you are eligible for voting")
-else :
-              print ("you are NOT eligible for voting")
+Concepts Covered:
+- Simple if-else branching
+- Multi-condition branching using elif
+- String length validation and membership checks
+"""
 
-#elif statement - If more than two conditions occurs we use elif        
 
-#2
-name  = (input ("what's your name?: "))
-if(len(name) < 4) :
-              print ("Too short")
-elif ("." in name or "," in name):
-              print ("Not valid") 
-elif (len(name) > 15) :
-              print ("Only 12 characters are allowed")
-else:
-    print ("Welcome!")
+def demonstrate_condition_statements() -> None:
+    # 1. Simple If-Else Statement (Voting Eligibility)
+    age: int = int(input("What's your age? "))
+    
+    if age >= 18:
+        print("You are eligible for voting.")
+    else:
+        print("You are NOT eligible for voting.")
 
+    print("\n--- Name Validation ---")
+
+    # 2. Elif Statements (Name Length & Character Validation)
+    name: str = input("What's your name? ")
+
+    if len(name) < 4:
+        print("Too short")
+    elif "." in name or " " in name:
+        print("Not valid")
+    elif len(name) > 12:
+        print("Only 12 characters are allowed")
+    else:
+        print("Welcome!")
+
+
+if __name__ == "__main__":
+    demonstrate_condition_statements()
