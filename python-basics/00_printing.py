@@ -1,14 +1,18 @@
 """
-Demonstration of the built-in print() function in Python.
-Shows how to output strings, numbers, and variables.
+Demonstration of built-in print() function features in Python.
 """
 
-# Printing a literal string
-print("Hello world! :)")
+def demonstrate_printing() -> None:
+    # 1. Printing literal strings
+    print("Hello, world!")
 
-# Printing an integer (no leading zeros)
-print(27)
+    # 2. Printing integers
+    age = 25
+    print(f"Age: {age}")
 
-# Assigning a string to a variable and printing it
-name = "achu"
-print(name)
+    # 3. Printing formatted variables
+    name = "Neha"
+    print(f"User Name: {name}")
+
+if __name__ == "__main__":
+    demonstrate_printing()
