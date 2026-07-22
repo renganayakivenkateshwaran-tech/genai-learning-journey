@@ -1,18 +1,42 @@
-x=4.65
-y=8
-z=9
-#result = print(round(x))   # 4
-#result = print(abs(x))
-#result = print(min(x,y,z)) # x
-#result = print(max(x,y,z)) # z
+"""
+Demonstration of Python Built-in Math Functions and the 'math' Module.
+
+Concepts Covered:
+- Built-in functions: round(), abs(), min(), max()
+- Standard library 'math' module functions: ceil(), floor(), sqrt(), pow()
+- Mathematical constants: pi, e, tau, inf, nan
+"""
 
 import math
-#result = print(math.ceil(x))
-#result = print(math.floor(x))
-#result = print(round(math.sqrt(x) ,2))
-#result = print(round(math.pow(x,y) ,2))
-#print(math.pi)   # 3.141592653589793
-#print(math.e)    # 2.718281828459045
-#print(math.tau)  # 6.283185307179586 (2π)
-#print(math.inf)  # Infinity
-#print(math.nan)  # Not a Number
+
+
+def demonstrate_math_functions() -> None:
+    x: float = 4.65
+    y: int = 8
+    z: int = 9
+
+    # 1. Built-in Math Functions
+    print("--- 1. Built-in Math Functions ---")
+    print(f"round({x}): {round(x)}")
+    print(f"abs({x}): {abs(x)}")
+    print(f"min({x}, {y}, {z}): {min(x, y, z)}")
+    print(f"max({x}, {y}, {z}): {max(x, y, z)}\n")
+
+    # 2. Math Module Functions
+    print("--- 2. Standard Library 'math' Module ---")
+    print(f"math.ceil({x}): {math.ceil(x)}")
+    print(f"math.floor({x}): {math.floor(x)}")
+    print(f"math.sqrt({x}): {round(math.sqrt(x), 2)}")
+    print(f"math.pow({x}, {y}): {round(math.pow(x, y), 2)}\n")
+
+    # 3. Mathematical Constants
+    print("--- 3. Mathematical Constants ---")
+    print(f"math.pi : {math.pi}")
+    print(f"math.e  : {math.e}")
+    print(f"math.tau: {math.tau}")
+    print(f"math.inf: {math.inf}")
+    print(f"math.nan: {math.nan}")
+
+
+if __name__ == "__main__":
+    demonstrate_math_functions()
