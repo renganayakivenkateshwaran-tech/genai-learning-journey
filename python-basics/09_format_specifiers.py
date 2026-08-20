@@ -40,8 +40,6 @@ def width_padding() -> None:
 def alignment() -> None:
     # 4. Text Alignment (< Left, > Right, ^ Center with width 12)
     price1: float = 6764.336
-    price2: float = -983.489
-    price3: float = 78677.31
     print("--- 4. Alignment Specifiers ---")
     print(f"Left  : |{price1:<12.2f}|")
     print(f"Right : |{price1:>12.2f}|")
