@@ -9,7 +9,7 @@ Specifiers Covered:
 - Thousands Separator (,)
 """
 
-def Fixed_point_precision() -> None:
+def fixed_point_precision() -> None:
     price1: float = 6764.336
     price2: float = -983.489
     price3: float = 78677.31
@@ -27,7 +27,8 @@ def width_padding() -> None:
     print(f"price1: {price1:10}")
     print(f"price2: {price2:10}")
     print(f"price3: {price3:10}\n")
- 
+
+def zero_padding() -> None:
     # 3. Zero Padding (010 -> 10 total width padded with zeros)
     price1: float = 6764.336
     price2: float = -983.489
@@ -77,4 +78,4 @@ def combined() -> None:
 
 
 if __name__ == "__main__":
-    demonstrate_format_specifiers()
+    separator()
