@@ -8,9 +8,9 @@ Concepts Covered:
 """
 
 
-def demonstrate_condition_statements() -> None:
+def age_eligibility() -> None:
     # 1. Simple If-Else Statement (Voting Eligibility)
-    age: int = int(input("What's your age? "))
+    age = int(input("What's your age? "))
     
     if age >= 18:
         print("You are eligible for voting.")
@@ -19,8 +19,9 @@ def demonstrate_condition_statements() -> None:
 
     print("\n--- Name Validation ---")
 
+    def name_validation() -> None:
     # 2. Elif Statements (Name Length & Character Validation)
-    name: str = input("What's your name? ")
+    name = input("What's your name? ")
 
     if len(name) < 4:
         print("Too short")
@@ -33,4 +34,4 @@ def demonstrate_condition_statements() -> None:
 
 
 if __name__ == "__main__":
-    demonstrate_condition_statements()
+    age_eligibility()
