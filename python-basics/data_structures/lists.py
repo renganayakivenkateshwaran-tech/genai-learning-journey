@@ -7,8 +7,8 @@ Characteristics:
 - Supports indexing, slicing, and built-in methods
 """
 
-    students = ["Sam", "Balu", "Deepika", "Atchaya"]
-    marks = [56, 85, 90, 93]
+students = ["Sam", "Balu", "Deepika", "Atchaya"]
+marks = [56, 85, 90, 93]
     
 def inspection_membership() -> None:
     # 1. Inspection & Membership
@@ -59,7 +59,7 @@ def reverse() -> None:
     students.reverse()
     print(f"Reversed order: {students}\n")
 
-def Concatenation_Reoetition() -> None:
+def concatenation_repetition() -> None:
     # 7. List Operations (Concatenation & Repetition)
     print("--- 7. Operations ---")
     combined: list[str | int] = marks + students
@@ -74,4 +74,4 @@ def clearing() -> None:
 
 
 if __name__ == "__main__":
-    remove()
+    reverse()
