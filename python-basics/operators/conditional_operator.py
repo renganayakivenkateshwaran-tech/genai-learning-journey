@@ -11,23 +11,23 @@ def demonstrate_conditional_operator() -> None:
     b: int = 5
 
     # 1. Basic Value Selection
-    min_value: int = a if a < b else b
+    min_value = a if a < b else b
     print(f"Minimum value between {a} and {b}: {min_value}")
 
     # 2. Check Even or Odd
-    parity: str = "EVEN" if a % 2 == 0 else "ODD"
+    parity = "EVEN" if a % 2 == 0 else "ODD"
     print(f"The number {a} is: {parity}")
 
     # 3. User Role Authorization Check
-    user: str = "admin"
+    user = "admin"
     access_level: str = "Full Access" if user == "admin" else "Limited Access"
     print(f"User Status ({user}): {access_level}")
 
     # 4. Authentication Check using F-Strings
-    name: str = "USER7675"
+    name = "USER7675"
     password: str = "12311109876"
     
-    auth_result: str = f"Welcome, {name}!" if password == "12311109876" else "Incorrect password! Try Again."
+    auth_result = f"Welcome, {name}!" if password == "12311109876" else "Incorrect password! Try Again."
     print(f"Auth Check: {auth_result}")
 
 
