@@ -13,7 +13,7 @@ Concepts Covered:
 
 
 def demonstrate_string_indexing() -> None:
-    phone_number: str = "7364-37847-49834"
+    phone_number = "7364-37847-49834"
 
     # 1. Single Character Indexing
     print("--- 1. Single Character Indexing ---")
