@@ -13,8 +13,8 @@ Operators Covered:
 
 
 def demonstrate_arithmetic_operators() -> None:
-    a: int = 5
-    b: int = 5
+    a = 5
+    b = 5
 
     # 1. Addition
     print(f"Addition ({a} + {b}): {a + b}")
