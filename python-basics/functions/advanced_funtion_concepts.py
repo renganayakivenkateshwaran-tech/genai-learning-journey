@@ -5,7 +5,7 @@ Concepts covered
 - Mulitiple return values
 - Unpacking returned values
 - Passing function as argument
-- function returning function
+- Function returning function
 
 """
 
@@ -46,3 +46,14 @@ def div(a,b):
 def calculate(operation,x,y):
     return operation(x,y)
 print(calculate(add,15,10))
+
+"""
+Function returning function - A function returning a function means that a function can create and return another function object as its result.
+"""
+
+def create_greeting():
+    def greet():
+        print("Hello!")
+    return greet
+my_function = create_greeting()
+my_function()
