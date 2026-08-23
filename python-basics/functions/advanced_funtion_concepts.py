@@ -30,3 +30,19 @@ print(name)
 print(age)
 print(country)
 
+"""
+ Passing function as argument - Functions are first-class objects, meaning you can pass them as arguments to other functions,
+            return them from functions, and store them in variables or data structures.
+"""
+
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return a-b
+def mul(a,b):
+    return a*b
+def div(a,b):
+    return a/b
+def calculate(operation,x,y):
+    return operation(x,y)
+print(calculate(add,15,10))
