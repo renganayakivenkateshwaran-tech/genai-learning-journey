@@ -48,3 +48,11 @@ print(res)
 # Sorting by names
 res = sorted(students,key=lambda stu:stu[1])
 print(res)
+
+# Lambda with dictionary
+department = [{"name":"IT","dept_no":10,"no_of_students":45},
+              {"name":"DS","dept_no":9,"no_of_students":43},
+              {"name":"CS","dept_no":11,"no_of_students":46},
+              {"name":"AI","dept_no":8,"no_of_students":42}]
+res = sorted(department,key=lambda dept:dept["no_of_students"])
+print(res)
