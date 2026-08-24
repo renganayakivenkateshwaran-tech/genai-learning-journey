@@ -25,3 +25,15 @@ numbers = [1,2,3,4,5]
 
 res = list(map(lambda num:num*2,numbers))
 print(res)
+
+# Lambda with filter()
+# filter() - keep only the items that satisty a condition.
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+res = list(filter(lambda num : num % 5 == 0,numbers))
+print(res)
+
+# Lambda with sorted()
+# sorted() - sorts the elements in descending order.
+
