@@ -75,3 +75,16 @@ students = [("Alice",98),
             ("Xavier",99)]
 res = min(students,key=lambda x : x[1])
 print(res)
+
+# Lambda with reduce
+# reduces the values to a final value
+from functools import reduce
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+res = reduce(lambda x,y: x * y,numbers)
+print(res)
+
+numbers = [2,4,6,7,4,8,4,7]
+
+res = reduce(lambda x,s:x+s,numbers)
+print(res)
