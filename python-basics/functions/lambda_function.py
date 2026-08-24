@@ -56,3 +56,22 @@ department = [{"name":"IT","dept_no":10,"no_of_students":45},
               {"name":"AI","dept_no":8,"no_of_students":42}]
 res = sorted(department,key=lambda dept:dept["no_of_students"])
 print(res)
+
+# Lambda with max and min
+# max - finds the maximum value
+students = [("Alice",98),
+            ("Bob",76),
+            ("Charlie",82),
+            ("Dara",94),
+            ("Xavier",99)]
+res = max(students,key=lambda x : x[1])
+print(res)
+
+# min - finds the minimum value
+students = [("Alice",98),
+            ("Bob",76),
+            ("Charlie",82),
+            ("Dara",94),
+            ("Xavier",99)]
+res = min(students,key=lambda x : x[1])
+print(res)
