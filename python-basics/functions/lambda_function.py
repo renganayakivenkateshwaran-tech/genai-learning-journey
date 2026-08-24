@@ -35,5 +35,16 @@ res = list(filter(lambda num : num % 5 == 0,numbers))
 print(res)
 
 # Lambda with sorted()
-# sorted() - sorts the elements in descending order.
+# sorted() - sorts the elements in ascending order.
 
+students = [("Alice",98),
+            ("Bob",76),
+            ("Charlie",82),
+            ("Dara",94)]
+# Sorting by marks
+res = sorted(students,key=lambda stu:stu[0])
+print(res)
+
+# Sorting by names
+res = sorted(students,key=lambda stu:stu[1])
+print(res)
