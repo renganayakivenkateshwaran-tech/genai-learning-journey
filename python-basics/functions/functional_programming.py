@@ -4,7 +4,7 @@ Demonstration of functional programming.
 Concept Covered 
 - map()
 - filter()
-- soretd()
+- sorted()
 - reduce()
 - zip
 - any()
@@ -22,3 +22,13 @@ numbers = [1,2,,3,7,9,5,3]
 
 res = list(filter(lambda num : num % 2 == 0,numbers))
 print(res)
+
+#sorted() - returns a new sorted list from the elements of any iterable object.
+employees = [{"name":"Kavitha","emp_no":10},
+             {"name":"Achu","emp_no":02},
+             {"name":"Deepika","emp_no":17},
+             {"name":"Pooja","emp_no":28},
+             {"name":"kayal","emp_no":05}]
+res = sorted(employees,key = lambda employee : employee ["emp_no"])
+print(res)
+             
