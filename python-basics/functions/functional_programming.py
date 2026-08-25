@@ -52,4 +52,10 @@ numbers = [1,2,3,4,5,6,7,8,9,10]
 res = all(num > 5 for num in numbers)
 print(res)
 
+# zip() - combines multiple lists (or other collections) into pairs, matching up elements by their index.
+num1 = (1,2,3,4,5)
+num2 = (1,2,3,4,5)
+zipped = list(zip(num1,num2))
+add = map(lambda x: x[0] + x [1],zipped)
+print(list(add))
 
