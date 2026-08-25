@@ -40,3 +40,8 @@ numbers = [1,2,3,4,5,6,7,8,9,10]
 res = reduce(lambda x,y : x+y, numbers)
 print(res)
 
+# any() - a built-in tool that returns True if at least one element in an iterable evalutes to true.
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+res = any(num > 5 for num in numbers)
+print(res)
