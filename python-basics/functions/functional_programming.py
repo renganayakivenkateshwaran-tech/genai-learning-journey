@@ -31,4 +31,12 @@ employees = [{"name":"Kavitha","emp_no":10},
              {"name":"kayal","emp_no":05}]
 res = sorted(employees,key = lambda employee : employee ["emp_no"])
 print(res)
-             
+            
+#reduce() - shrink" or collapse a collection of data into one result.
+from functools import reduce
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+res = reduce(lambda x,y : x+y, numbers)
+print(res)
+
