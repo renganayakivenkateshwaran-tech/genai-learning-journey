@@ -45,3 +45,11 @@ numbers = [1,2,3,4,5,6,7,8,9,10]
 
 res = any(num > 5 for num in numbers)
 print(res)
+
+# all() - returns True if every single item in a collection is true. If even one item is false.
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+res = all(num > 5 for num in numbers)
+print(res)
+
+
