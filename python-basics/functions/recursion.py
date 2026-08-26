@@ -24,9 +24,15 @@ print(add(7))
 
 # Count up
 
-def add(n):
+def count(n):
     if n>10:
         return       # Base case
     print(n)
-    return add(n+1)   # Recursive case
-print(add(1))
+    return count(n+1)   # Recursive case
+print(count(1))
+
+def rev(s):
+    if s == "":
+        return " "
+    return s[-1] + rev(s[:-1])
+print(rev("snake"))
