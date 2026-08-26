@@ -16,3 +16,9 @@ A recursive function must have:
 """
 # sum of n numbers
 
+def add(n):
+    if n==0:
+        return 0          # Base case
+    return n + add(n-1)   # Recursive case
+print(add(7))
+
