@@ -31,8 +31,20 @@ def count(n):
     return count(n+1)   # Recursive case
 print(count(1))
 
+# string reversing
+
 def rev(s):
     if s == "":
         return " "
     return s[-1] + rev(s[:-1])
 print(rev("snake"))
+
+# factorial
+
+def fact(n):
+    if n==1:
+        return 1
+    return n*fact(n-1)
+print(fact(5))
+
+
