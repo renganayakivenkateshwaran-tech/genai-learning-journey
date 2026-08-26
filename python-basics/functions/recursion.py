@@ -22,3 +22,11 @@ def add(n):
     return n + add(n-1)   # Recursive case
 print(add(7))
 
+# Count up
+
+def add(n):
+    if n>10:
+        return       # Base case
+    print(n)
+    return add(n+1)   # Recursive case
+print(add(1))
