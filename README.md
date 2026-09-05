@@ -7,7 +7,6 @@ Welcome to my repository tracking my progress toward becoming an Enterprise Gene
 * [ ] **Decorators, Generators, and Context Managers**
 * [ ] **Async/Await, Concurrency, and Type Hints**
 * [ ] **Unit Testing (`pytest`) & File I/O**
-* *Target: 200+ small programs, CLI tools, and automation scripts.*
 
 ### 📐 Phase 2: Mathematics for AI
 * [ ] **Linear Algebra:** Vectors, Matrix Operations, SVD, PCA

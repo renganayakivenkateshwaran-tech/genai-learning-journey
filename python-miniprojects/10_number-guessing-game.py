@@ -16,7 +16,6 @@ while True:
          continue
     if guess==answer:
             print("Correct")
-            guess=int(guess)
             print("The correct answer is: ",answer)
             break
     elif guess>20 or guess<1:
@@ -24,6 +23,6 @@ while True:
     elif guess<answer:
          print("Too low! Try again")
     elif guess>answer:
-         print("Too high! Try a;gain")
+         print("Too high! Try again")
     
 print("Guesses: ",guesses_count)
