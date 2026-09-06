@@ -50,3 +50,13 @@ class Code:
 obj = Code()
 print(obj._Code__code)
 
+# @property Makes mathods behave like attributes.
+
+class Add:
+    def __init__(self,num):
+        self.__num = num
+    @property
+    def addition(self):
+        return self.__num + 90
+num1 = Add(10)
+print(num1.addition)
