@@ -70,13 +70,13 @@ class BankAccount:
     @property
     def balance(self):
         return self.__balance
-        
-    def deposit(self,amount):
+    @balance.setter   
+    def balance(self,amount):
         if amount > 0:
              self.__balance = self.__balance + amount
         else:
             print("Deposit number can't be negative")
 account2 = BankAccount(10000)
 print(account2.balance)
-account2.deposit(2000)
+account2.balance = 5000
 print(account2.balance)
