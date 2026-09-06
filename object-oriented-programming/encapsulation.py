@@ -60,3 +60,23 @@ class Add:
         return self.__num + 90
 num1 = Add(10)
 print(num1.addition)
+
+# Getters - Used to retrieve internal data.
+# Setters - Used to change the internal data.
+
+class BankAccount:
+    def __init__(self,balance):
+        self.__balance = balance
+    @property
+    def balance(self):
+        return self.__balance
+        
+    def deposit(self,amount):
+        if amount > 0:
+             self.__balance = self.__balance + amount
+        else:
+            print("Deposit number can't be negative")
+account2 = BankAccount(10000)
+print(account2.balance)
+account2.deposit(2000)
+print(account2.balance)
