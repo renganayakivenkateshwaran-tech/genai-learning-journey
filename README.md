@@ -11,7 +11,7 @@ Python Fundamentals
 
 "python-basics/" — core syntax, control flow, data structures, functions, exception handling, organized by topic
 
-"python-miniprojects/" — small applied scripts (e.g. concession stand ordering system)
+"python-miniprojects/" — small applied scripts (e.g. number guessing game)
 
 Object-Oriented Programming
 
