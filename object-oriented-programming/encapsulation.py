@@ -35,12 +35,12 @@ employee = Employee("Akilan",101,50000)
 employee.show_salary()
 
 # Private attributes - Indicates that an attribute is intended to be private using double underscore.
-class BankAccount:
+class BankAccountBasic:
     def __init__(self,balance):
         self.__balance = balance
     def show_balance(self):
         print("Balance:",self.__balance)
-account1 = BankAccount(100000)
+account1 = BankAccountBasic(100000)
 account1.show_balance()
 
 # Name mangling - Used to make class attributes less accessible from outside the class and to avoid accidental name conflicts, especially in inheritance.
@@ -64,7 +64,7 @@ print(num1.addition)
 # Getters - Used to retrieve internal data.
 # Setters - Used to change the internal data.
 
-class BankAccount:
+class BankAccountWithProperty:
     def __init__(self,balance):
         self.__balance = balance
     @property
