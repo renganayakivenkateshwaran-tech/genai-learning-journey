@@ -1,45 +1,104 @@
-Generative AI Engineering — Learning Journey 🚀
+# 🤖 Generative AI Engineering — Learning Journey
 
-Tracking my path from a BSc IT student to a Generative AI Engineer, one project at a time.
+Tracking my journey from a BSc IT student to a Generative AI Engineer, one project at a time.
 
-📍 Full roadmap: "ROADMAP.md" (ROADMAP.md)
-📍 Currently on: Phase 1 — Python OOP
+📍 **Current Phase:** Phase 1 — Python & OOP  
+📍 **Full Roadmap:** [ROADMAP.md](ROADMAP.md)
 
-What's Built So Far
+---
 
-Python Fundamentals
+## 🚀 What's Built So Far
 
-"python-basics/" — core syntax, control flow, data structures, functions, exception handling, organized by topic
+### 🐍 Python Fundamentals
 
-"python-miniprojects/" — small applied scripts (e.g. number guessing game)
+`python-basics/`
 
-Object-Oriented Programming
+Python fundamentals organized by topic:
 
-"object-oriented-programming/" — encapsulation, public/protected/private attributes, name mangling, @property getters & setters
+- Basics
+- Operators
+- Strings
+- Control Flow
+- Loops
+- Data Structures
+- Functions
+- Comprehensions
+- Exception Handling
 
-How This Repo Is Organized
+### 🧩 Object-Oriented Programming
 
-Each folder groups files by concept, not by date. Every script aims to include:
+`object-oriented-programming/`
 
-- A file-level docstring explaining what's covered
-- Per-class/method docstrings
-- Demo code wrapped in "if __name__ == "__main__":"
-- Clear, descriptive filenames and commit messages
+Currently learning and practicing:
 
-Tech Stack
+- Classes & Objects
+- Encapsulation
+- Public, Protected & Private Attributes
+- Name Mangling
+- `@property`
+- Getters & Setters
 
-- Language: Python 3
-- Testing (upcoming): pytest
-- Version control: Git & GitHub
+### 🛠️ Mini Projects
 
-Why This Repo Exists
+`python-mini-projects/`
 
-I'm building toward a Generative AI Engineer role at a product company, following a structured path:
+Small Python projects built to practice what I've learned.
 
-Python → Math & DSA foundations → Machine Learning → Deep Learning & Transformers → LLMs, RAG, and Agents
+---
 
-The full breakdown with checkboxes is in "ROADMAP.md" — this README only tracks what's actually built, so it stays honest as a portfolio piece.
+## 📈 Learning Progress
 
-Connect
+### Python
+- [x] Python Fundamentals
+- [ ] Object-Oriented Programming — **Currently Learning**
+- [ ] Advanced Python
 
-Feedback and code reviews are welcome — feel free to open an issue.
+### Computer Science
+- [ ] Mathematics for AI
+- [ ] Data Structures & Algorithms
+- [ ] SQL
+- [ ] Computer Networks
+- [ ] Operating Systems
+
+### AI / ML
+- [ ] NumPy
+- [ ] Pandas
+- [ ] Machine Learning
+- [ ] Deep Learning
+- [ ] PyTorch
+
+### Generative AI
+- [ ] Transformers
+- [ ] LLMs
+- [ ] Prompt Engineering
+- [ ] Embeddings
+- [ ] RAG
+- [ ] Fine-tuning
+- [ ] AI Agents
+
+---
+
+## 📂 How This Repo Is Organized
+
+The repository is organized by **topic rather than date**.
+
+I try to keep my code:
+
+- Easy to understand
+- Properly organized
+- Documented with useful comments and docstrings
+- Accompanied by clear commit messages
+
+---
+
+## 🎯 Why This Repo Exists
+
+I'm building my skills step by step toward a career in Generative AI.
+
+My learning path is:
+
+**Python → DSA & Math → Machine Learning → Deep Learning → Transformers → LLMs → RAG → AI Agents**
+
+This repository records what I actually learn and build along the way.
+
+---
